@@ -1,0 +1,40 @@
+@mixin mediumScreen() {
+  @include mediaQueryMaxWidth(1185px) {
+    @content
+  }
+}
+
+@mixin mobileScreen() {
+  @include mediaQueryMaxWidth(850px) {
+    @content
+  }
+}
+
+@mixin extraMobileScreen() {
+  @include mediaQueryMaxWidth(400px) {
+    @content
+  }
+}
+
+@mixin mediaQueryMaxWidth($maxWidth) {
+  @media screen and (max-width: #{$maxWidth}) {
+    @content;
+  }
+}
+
+@mixin hoverOrActive() {
+
+  /* smartphones, touchscreens */
+  @media (hover: none) and (pointer: coarse) {
+    &:active {
+      @content;
+    }
+  }
+
+  /* mouse, touch pad */
+  @media (hover: hover) and (pointer: fine) {
+    &:hover {
+      @content;
+    }
+  }
+}
