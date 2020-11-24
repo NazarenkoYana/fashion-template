@@ -16,12 +16,12 @@ body {
   padding: 60px 0;
   position: relative;
   color: white;
-  background: url("images/main-img.jpg") no-repeat center;
+  background: url("../images/main-img.jpg") no-repeat center;
   z-index: 2;
   height: 700px;
   align-items: flex-end;
   box-sizing: border-box;
-  
+
   &:after {
     content: " ";
     width: 100%;
