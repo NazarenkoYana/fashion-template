@@ -16,7 +16,7 @@ body {
   padding: 60px 0;
   position: relative;
   color: white;
-  background: url("../images/main-img.jpg") no-repeat center;
+  background: url("../images/main-img.jpg") no-repeat center/cover;
   z-index: 2;
   height: 700px;
   align-items: flex-end;
@@ -33,13 +33,13 @@ body {
   }
 
   .img-name {
-    font-family: PT Sans;
+    font-family: PT Sans, serif;
     font-size: 14px;
     line-height: 18px;
   }
 
   .name {
-    font-family: PT Serif;
+    font-family: PT Serif, serif;
     font-weight: bold;
     font-size: 20px;
     line-height: 50px;
@@ -51,7 +51,7 @@ body {
   }
 
   .img-date {
-    font-family: PT Serif;
+    font-family: PT Serif, serif;
     font-size: 14px;
     line-height: 19px;
   }

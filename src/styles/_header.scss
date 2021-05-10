@@ -1,10 +1,7 @@
 @import "mixins";
 
 header {
-  padding-left: 80px;
-  padding-right: 80px;
-  padding-top: 42px;
-  padding-bottom: 42px;
+  padding: 42px 80px;
   background-color: #FFFFFF;
   display: flex;
   flex-direction: row;
@@ -15,7 +12,7 @@ header {
     width: 126px;
 
     a {
-      font-family: PT Serif;
+      font-family: PT Serif, serif;
       font-style: normal;
       font-weight: bold;
       font-size: 25px;
@@ -41,7 +38,7 @@ header {
       li {
         display: inline-block;
         list-style-type: none;
-        font-family: PT Serif;
+        font-family: PT Serif, serif;
         font-style: normal;
         font-weight: normal;
         font-size: 14px;
@@ -60,7 +57,6 @@ header {
 
       }
     }
-
 
   }
 
